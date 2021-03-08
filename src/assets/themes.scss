@@ -1,0 +1,27 @@
+// define 3 theme color
+// mat-palette accepts $palette-name, main, lighter and darker variants
+
+@import '~@angular/material/theming';
+
+@include mat-core();
+
+$spa-theme-primary: mat-palette($mat-yellow, A200);
+$spa-theme-accent: mat-palette($mat-cyan);
+$spa-theme-warn: mat-palette($mat-red, A700);
+
+
+// create theme (use mat-dark-theme for themes with dark backgrounds)
+$spa-theme: mat-dark-theme((
+    color: (
+      primary: $spa-theme-primary,
+      accent: $spa-theme-accent,
+      warn: $spa-theme-warn
+    )
+));
+
+@include angular-material-theme($spa-theme);
+
+
+footer {
+  background-color: mat-color($spa-theme-primary);
+}

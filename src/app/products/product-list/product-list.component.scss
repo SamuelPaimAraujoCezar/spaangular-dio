@@ -1,0 +1,85 @@
+.filter-card {
+    float: left;
+    margin: 10px;
+    width: calc(100% - 50px);
+
+    > form {
+        display: flex;
+
+        > .filter-query {
+            float: left;
+            width: 80%;
+
+            > div {
+                padding: 10px;
+            }
+        }
+
+        > .filter-size {
+            float: left;
+            width: 20%;
+
+            > div {
+                padding: 10px;
+            }
+        }
+    }
+} 
+
+.products-table {
+    width: calc(100% - 20px);
+    margin: 10px;
+}
+
+.edit {
+    cursor: pointer;
+    margin-right: 10px;
+
+    > mat-icon {
+        color: #d9cd26;
+    }
+}
+
+.info {
+    cursor: pointer;
+    margin-right: 10px;
+
+    > mat-icon {
+        color: #00BCD4;
+    }
+}
+
+.delete {
+    cursor: pointer;
+
+    > mat-icon {
+        color: #e35e6b;
+    }
+}
+
+.list-actions {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+
+    > div {
+
+        > a {
+            display: flex;
+            cursor: pointer;
+
+            > span {
+                margin-top: 3px;
+            }
+        }
+    }
+}
+
+.center {
+    margin: 10px;
+
+    > a {
+        cursor: pointer;
+        color: white;
+    }
+}

@@ -1,0 +1,22 @@
+.info-actions {
+    margin: 10px;
+
+    > a {
+        display: flex;
+        cursor: pointer;
+        color: #FFFF00;
+
+        > span {
+            margin-top: 3px;
+        }
+    }
+}
+
+.center {
+    margin: 10px;
+
+    > a {
+        cursor: pointer;
+        color: white;
+    }
+}

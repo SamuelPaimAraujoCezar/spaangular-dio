@@ -1,0 +1,26 @@
+:host {
+
+    > .card-welcome {
+        display: flex;
+        justify-content: center;
+
+        > .home {
+            margin: 10px;
+            width: 100%;
+
+            > .title {
+            font-size: 3rem;
+            font-weight: 300;
+            line-height: 1.2;
+            }
+
+            > .subtitle {
+                font-size: 1.1rem;
+            }
+
+            > .actions {
+                margin-bottom: 5px;
+            }
+        }
+    }
+}

@@ -1,0 +1,36 @@
+<spa-header icon="info" title="Informações do Produtos"></spa-header>
+
+<mat-list class="product-info" *ngIf="product; else semProduto">
+    <mat-list-item> Id: {{ product.id }} </mat-list-item>
+    <mat-list-item> Nome: {{ product.nome }} </mat-list-item>
+    <mat-list-item> Empresa: {{ product.empresa }} </mat-list-item>
+    <mat-list-item> Categoria: {{ product.categoria }} </mat-list-item>
+    <mat-list-item> Preço da Compra: {{ product.precoCompra | currency: 'BRL' }} </mat-list-item>
+    <mat-list-item> Preço da Venda: {{ product.precoVenda | currency: 'BRL' }} </mat-list-item>
+    <mat-list-item> Quantidade em Estoque: {{ product.qtdEstoque }} </mat-list-item>
+    <mat-list-item *ngIf="product.dataVencimento"> Data de Vencimento: 
+        {{ product.dataVencimento | date: 'dd/MM/yyyy' }} 
+    </mat-list-item>
+</mat-list>
+
+<div class="center">
+    <a [routerLink]="['/products']">
+      <mat-icon>
+          home
+      </mat-icon>
+    </a>
+</div>
+
+<div class="info-actions">
+    <a [routerLink]="['/products/list']">
+        <mat-icon>
+            keyboard_arrow_left
+          </mat-icon>
+          <span>Voltar para a listagem</span>
+      </a>
+</div>
+
+<ng-template #semProduto>
+    <h1 class="full-width center">Produto não encontrado!</h1>
+</ng-template>
+

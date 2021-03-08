@@ -1,0 +1,23 @@
+<spa-header icon="storefront" title="Cadastro de Produtos"></spa-header>
+<div class="form-cadastro">
+    <mat-card class="form" *ngIf="product" >
+      <form autocomplete="off" novalidate [formGroup]="product" (ngSubmit)="submit()" (ngReset)="resetForm()">
+        <mat-card-content>
+          <spa-input-text titulo="Nome do Produto *" controlName="nome" [formGroup]="product"></spa-input-text>
+          <spa-input-text titulo="Nome da Empresa *" controlName="empresa" [formGroup]="product"></spa-input-text>
+          <spa-input-text titulo="Categoria *" controlName="categoria" [formGroup]="product"></spa-input-text>
+          <spa-input-number titulo="Preço da Compra *" controlName="precoCompra" [formGroup]="product"></spa-input-number>
+          <spa-input-number titulo="Preço da Venda *" controlName="precoVenda" [formGroup]="product"></spa-input-number>
+          <spa-input-number titulo="Quantidade em Estoque *" controlName="qtdEstoque" [formGroup]="product"></spa-input-number>
+          <spa-input-date titulo="Data de Vencimento" controlName="dataVencimento" [formGroup]="product"></spa-input-date>
+        </mat-card-content>
+        <mat-card-actions class="form-actions">
+            <div>
+                <button type="submit" color="primary" mat-raised-button>Salvar</button>
+                <button *ngIf="!isUpdate" type="reset" color="warn" mat-raised-button>Limpar</button>
+            </div>
+            <button color="accent" mat-raised-button (click)="goBack()">{{ rightButton }}</button>   
+        </mat-card-actions>
+      </form>
+    </mat-card>
+  </div>

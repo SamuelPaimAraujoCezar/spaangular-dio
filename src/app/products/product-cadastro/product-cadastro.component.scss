@@ -1,0 +1,23 @@
+:host {
+
+    > .form-cadastro {
+        display: flex;
+        justify-content: center;
+
+        > .form {
+            margin: 10px;
+            width: 50%;
+ 
+            > form {
+                display: flex;
+                flex-direction: column;
+                
+                > .form-actions {
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+            
+        }
+    }
+}

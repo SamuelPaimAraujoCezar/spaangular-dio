@@ -1,0 +1,94 @@
+{
+  "products": [
+    {
+      "nome": "Feijão 5kg",
+      "empresa": "Albara Alimentos",
+      "categoria": "Alimentos",
+      "precoCompra": 12.95,
+      "precoVenda": 22.47,
+      "qtdEstoque": 250,
+      "dataVencimento": "2023-09-25T03:00:00.000Z",
+      "id": 3
+    },
+    {
+      "nome": "Arroz 5kg",
+      "empresa": "Albara Alimentos",
+      "categoria": "Alimentos",
+      "precoCompra": 18.96,
+      "precoVenda": 28.48,
+      "qtdEstoque": 180,
+      "dataVencimento": "2023-10-02T03:00:00.000Z",
+      "id": 4
+    },
+    {
+      "nome": "Blusa Preta",
+      "empresa": "Albara Vestimentas",
+      "categoria": "Roupas",
+      "precoCompra": 50,
+      "precoVenda": 99.99,
+      "qtdEstoque": 50,
+      "dataVencimento": null,
+      "id": 5
+    },
+    {
+      "nome": "Camiseta Azul ",
+      "empresa": "Albara Vestimentas",
+      "categoria": "Roupas",
+      "precoCompra": 30,
+      "precoVenda": 49.99,
+      "qtdEstoque": 80,
+      "dataVencimento": null,
+      "id": 6
+    },
+    {
+      "nome": "Calça Alfaiatada Básica Slim",
+      "empresa": "Renner",
+      "categoria": "Roupas",
+      "precoCompra": 99.9,
+      "precoVenda": 129.99,
+      "qtdEstoque": 30,
+      "dataVencimento": null,
+      "id": 8
+    },
+    {
+      "nome": "Sapato Social Couro Democrata Jazz Flex Preto",
+      "empresa": "dafiti",
+      "categoria": "Roupas",
+      "precoCompra": 139.99,
+      "precoVenda": 199.99,
+      "qtdEstoque": 40,
+      "dataVencimento": null,
+      "id": 9
+    },
+    {
+      "nome": "Relógio Lacoste Masculino Borracha Azul",
+      "empresa": "VIVARA",
+      "categoria": "Acessórios",
+      "precoCompra": 550,
+      "precoVenda": 700,
+      "qtdEstoque": 10,
+      "dataVencimento": null,
+      "id": 10
+    },
+    {
+      "nome": "Vestido de Alça Estampa de Laço",
+      "empresa": "Posthaus",
+      "categoria": "Roupas",
+      "precoCompra": 29.99,
+      "precoVenda": 49.99,
+      "qtdEstoque": 60,
+      "dataVencimento": null,
+      "id": 11
+    },
+    {
+      "nome": "Boné Caramelo Brasão MVCK",
+      "empresa": "MVCK",
+      "categoria": "Acessórios",
+      "precoCompra": 105.7,
+      "precoVenda": 150,
+      "qtdEstoque": 70,
+      "dataVencimento": null,
+      "id": 12
+    }
+  ]
+}

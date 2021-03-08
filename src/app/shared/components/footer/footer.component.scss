@@ -1,0 +1,19 @@
+:host{
+    > footer {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+
+        > .title {
+            padding-top: 8px;
+            margin-right: 20px;
+            font-size: 20px;
+            color: black;
+        }
+
+        > .icon {
+            margin-right: 10px;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+@import 'assets/themes.scss';
+@import 'assets/reset.scss';
+
+.full-width {
+    width: 100%;
+}
+
+.quebrar-linha {
+    white-space: pre-line;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
