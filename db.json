@@ -15,34 +15,34 @@
       "empresa": "Albara Alimentos",
       "categoria": "Alimentos",
       "precoCompra": 18.96,
-      "precoVenda": 28.48,
+      "precoVenda": 24.45,
       "qtdEstoque": 180,
       "dataVencimento": "2023-10-02T03:00:00.000Z",
       "id": 4
     },
     {
-      "nome": "Blusa Preta",
-      "empresa": "Albara Vestimentas",
-      "categoria": "Roupas",
-      "precoCompra": 50,
-      "precoVenda": 99.99,
-      "qtdEstoque": 50,
-      "dataVencimento": null,
+      "nome": "Perfume Paco Rabanne One Million",
+      "empresa": "RENNER",
+      "categoria": "Cosméticos",
+      "precoCompra": 649.9,
+      "precoVenda": 799.99,
+      "qtdEstoque": 10,
+      "dataVencimento": "2022-07-26T03:00:00.000Z",
       "id": 5
     },
     {
-      "nome": "Camiseta Azul ",
-      "empresa": "Albara Vestimentas",
-      "categoria": "Roupas",
-      "precoCompra": 30,
-      "precoVenda": 49.99,
-      "qtdEstoque": 80,
-      "dataVencimento": null,
+      "nome": "Bio Instinto Kit Capilar Profissional Ômega 3",
+      "empresa": "Vaidosa Cosméticos",
+      "categoria": "Cosméticos",
+      "precoCompra": 34,
+      "precoVenda": 50,
+      "qtdEstoque": 45,
+      "dataVencimento": "2022-05-05T03:00:00.000Z",
       "id": 6
     },
     {
       "nome": "Calça Alfaiatada Básica Slim",
-      "empresa": "Renner",
+      "empresa": "RENNER",
       "categoria": "Roupas",
       "precoCompra": 99.9,
       "precoVenda": 129.99,
@@ -89,6 +89,26 @@
       "qtdEstoque": 70,
       "dataVencimento": null,
       "id": 12
+    },
+    {
+      "nome": "Camiseta Longline - Preta",
+      "empresa": "KEY",
+      "categoria": "Roupas",
+      "precoCompra": 99,
+      "precoVenda": 140,
+      "qtdEstoque": 35,
+      "dataVencimento": null,
+      "id": 13
+    },
+    {
+      "nome": "Relógio Unissex Champion",
+      "empresa": "RENNER",
+      "categoria": "Acessórios",
+      "precoCompra": 299.9,
+      "precoVenda": 400,
+      "qtdEstoque": 15,
+      "dataVencimento": null,
+      "id": 14
     }
   ]
 }

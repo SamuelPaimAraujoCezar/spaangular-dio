@@ -21,3 +21,13 @@
         }
     }
 }
+
+@media (max-width: 800px) {
+    :host {
+        > .form-cadastro {   
+            > .form {
+                width: 100%;               
+            }
+        }
+    }
+}
