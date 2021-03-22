@@ -1,9 +1,9 @@
-# Products Manager
+# Product Manager
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/SamuelPaimAraujoCezar/spaangular-dio/blob/master/LICENSE) 
 
 ## Sobre o projeto
 
-Products Manager é uma aplicação front-end construída durante o bootcamp Avanade Angular Developer, evento organizado pela [Digital Innovation One](https://web.digitalinnovation.one).
+Product Manager é uma aplicação front-end construída durante o bootcamp Avanade Angular Developer, evento organizado pela [Digital Innovation One](https://web.digitalinnovation.one).
 
 A aplicação consiste em cadastrar e gerenciar produtos, fazendo uma listagem paginada dos produtos em uma tabela, onde é possível editar, excluir e visualizar produtos.
 
